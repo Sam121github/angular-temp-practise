@@ -5,7 +5,8 @@
 .navbar {
     padding: 20px;
     margin-bottom: 40px;
-    background-color : darkorange;
+    background-color:$main-color ;
+    
   
   
     .bwm-search {
@@ -19,8 +20,9 @@
       margin-right: 30px;
       font-size: 30px;
       letter-spacing: 1px;
-      color:$main-color;
-      font-weight: 500;
+      color:white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+      font-weight: 1000;
       
     }
   
@@ -31,12 +33,12 @@
   
   
     .btn-bwm-search {
-      border-color:$main-color;
-      color:$main-color;
+      border-color:$light-gray-color;
+      color:$light-gray-color;
   
   
       &:hover, &:focus, &:active {
-        background-color: transparent;
+        background-color: red;
         border-color:$main-color !important;
         color:$main-color !important;
         box-shadow: none;

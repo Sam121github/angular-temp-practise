@@ -7,7 +7,7 @@
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
-      "prefix": "app",
+      "prefix": "bwn",
       "schematics": {},
       "architect": {
         "build": {
@@ -120,7 +120,7 @@
     "bwn1-cli-e2e": {
       "root": "e2e/",
       "projectType": "application",
-      "prefix": "",
+      "prefix": "bwn",
       "architect": {
         "e2e": {
           "builder": "@angular-devkit/build-angular:protractor",
